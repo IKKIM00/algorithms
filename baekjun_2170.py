@@ -1,3 +1,4 @@
+#문제는 풀리지만 시간초과 발생
 num = int(input())
 lst = list()
 
