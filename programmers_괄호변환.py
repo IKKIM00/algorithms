@@ -1,4 +1,4 @@
-# 올바른 괄호 문자열인지 판단
+# 올바 괄호 문자열인지 판단
 def check_valid(p):
     cnt = 0
     for char in p:
@@ -17,7 +17,7 @@ def seperate(p):
 
     cnt, idx = 0, 0
 
-    # 균형잡힌 괄호 문자열 찾기
+    #균형잡힌 괄호 문자열 찾기
     while idx < len(p):
         if p[idx] == '(':
             cnt += 1
@@ -29,11 +29,13 @@ def seperate(p):
 
     u = p[:idx]
     v = p[idx:]
-
+    #올바른 괄호 문자열 u를 제외하고 그 뒤에 대해 자귀적으로 올바른 괄호 문자열이 될때까지 수행함
     if check_valid(u):
         return u + seperate(v)
+
     t = ''
     for ch in u[1:-1]:
+        #문자의 괄호 방향 뒤집기
         if ch == '(':
             t += ')'
         else:
