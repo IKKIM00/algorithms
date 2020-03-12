@@ -36,7 +36,7 @@ def seperate(p):
     t = ''
     for ch in u[1:-1]:
         #문자의 괄호 방향 뒤집기
-       if ch == '(':
+        if ch == '(':
             t += ')'
         else:
             t += '('
