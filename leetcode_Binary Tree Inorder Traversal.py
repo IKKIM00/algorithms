@@ -6,7 +6,7 @@ class TreeNode:
         self.right = right
 
 class Solution:
-    def inorderTraversal(self, root: TreeNode) -> List[int]:
+    def inorderTraversal(self, root):
         stack = list()
         output = list()
         if not root:
