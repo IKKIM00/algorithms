@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 문제 설명:
 주어진 string s를 reverse하는 것
