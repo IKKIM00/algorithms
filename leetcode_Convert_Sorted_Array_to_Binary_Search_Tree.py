@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+
+"""
+문제 설명:
+입력 값이 작은 수부터 큰 수대로 들어오고 이를 트리 노드로 만드는 것
+
+"""
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
